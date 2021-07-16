@@ -1,0 +1,21 @@
+{
+    "name": "jmartz-gmbh/lumen-command-algolia-upload-shops",
+    "description": "Php Lumen Command Algolia Upload Shops",
+    "require": {
+        "php": "^7.3|^7.4|^8.0",
+        "illuminate/database": "^7.3.0|^8.0"
+    },
+    "autoload": {
+        "classmap": [
+            "command/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jonathan Martz",
+            "email": "composer@jmartz.de",
+            "homepage": "https://www.jmartz.de",
+            "role": "Developer"
+        }
+    ]
+}
