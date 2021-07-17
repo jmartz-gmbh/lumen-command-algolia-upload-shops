@@ -29,8 +29,8 @@ class AlgoliaUploadShops extends Command
     public function handle()
     {
         $client = \Algolia\AlgoliaSearch\SearchClient::create(
-            '9BMKFCEWDV',
-            '06e0d02523674e962c5607f3393bef68'
+            env('ALGOLIA_APP_ID'),
+            env('ALGOLIA_SEARCH_KEY')
           );
           $index = $client->initIndex('shops');
 
